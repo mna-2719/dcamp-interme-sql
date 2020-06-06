@@ -28,3 +28,4 @@ WHERE
          FROM match AS sub
          WHERE main.country_id = sub.country_id
                AND main.season = sub.season);
+	       
