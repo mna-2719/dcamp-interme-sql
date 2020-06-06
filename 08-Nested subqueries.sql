@@ -56,4 +56,3 @@ LEFT JOIN (
   GROUP BY country_id, season) AS outer_s
 ON c.id = outer_s.country_id
 GROUP BY country;
-
