@@ -40,4 +40,3 @@ FROM
     ON m.country_id = c.id) AS subquery
 -- Filter by total goals scored in the main query
 WHERE total_goals >= 10;
-
