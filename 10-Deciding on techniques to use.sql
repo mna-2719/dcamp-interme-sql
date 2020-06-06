@@ -101,3 +101,4 @@ SELECT
 FROM home
 INNER JOIN away
 ON home.id = away.id;
+
