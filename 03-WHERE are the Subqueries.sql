@@ -36,4 +36,3 @@ WHERE team_api_id IN
 	  (SELECT hometeam_ID 
        FROM match
        WHERE home_goal >= 8);
-
