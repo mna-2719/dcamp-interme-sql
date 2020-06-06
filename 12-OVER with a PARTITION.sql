@@ -33,5 +33,3 @@ WHERE
 	hometeam_id = 8673 
     OR awayteam_id = 8673
 ORDER BY (home_goal + away_goal) DESC;
-
-
