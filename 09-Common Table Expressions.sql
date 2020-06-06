@@ -52,5 +52,3 @@ FROM league AS l
 -- Join the CTE onto the league table
 LEFT JOIN match_list ON l.id = match_list.country_id
 GROUP BY l.name;
-
-
