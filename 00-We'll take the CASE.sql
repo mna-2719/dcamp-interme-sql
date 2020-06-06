@@ -67,4 +67,3 @@ FROM matches_spain AS m
 LEFT JOIN teams_spain AS t 
 ON m.hometeam_id = t.team_api_id
 WHERE m.awayteam_id = 8634;
-
