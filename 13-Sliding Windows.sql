@@ -27,4 +27,3 @@ FROM match
 WHERE 
 	awayteam_id = 9908 
     AND season = '2011/2012';
-
