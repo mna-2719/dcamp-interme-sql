@@ -39,4 +39,3 @@ WHERE m.season = '2011/2012'
 GROUP BY l.name
 -- Order the query by the rank you created
 ORDER BY league_rank;
-
